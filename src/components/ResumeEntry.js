@@ -14,7 +14,7 @@ const ResumeEntry = (props) => {
 
     const Container = styled.div`
         text-align: left;
-        margin: 50px 0px;
+        margin-bottom: 50px;
     `
 
     // const Title = styled.div`
@@ -25,16 +25,21 @@ const ResumeEntry = (props) => {
         font-weight: 600;
         margin-right: 5px;
         font-size: 1.2em;
-    `;
+    `
 
     const Role = styled.span`
         font-weight: 400;
-    `;
+    `
+
+    const Date = styled.span`
+        font-size: 0.8em;
+        display: block;
+    `
 
     return ( 
         <Container>
             <Company>{company}</Company> <Role>{role}</Role>
-            <p>{startMonth} {startYear} - {endMonth} {endYear}</p>
+            <Date>{startMonth} {startYear} - {endMonth} {endYear}</Date>
             <p>{description}</p>
         </Container>
     )

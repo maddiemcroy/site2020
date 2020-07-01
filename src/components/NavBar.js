@@ -15,11 +15,18 @@ const Container = styled.div`
 const NavLink = styled(Link)`
     font-weight: bold;
     margin: 0px 10px;
+    color: white;
+    transition: 200ms;
+    text-decoration: none;
+    :hover {
+        color: #E8846D;
+    }
 `
 
 const LinksContainer = styled.div`
     text-align: right;
     flex: 1;
+    margin: 0px 20px;
 `
 
 const TitleContainer = styled.div`
@@ -41,7 +48,7 @@ const NavBar = (props) => {
         <Container>
             <TitleContainer>
                 <Title>
-                    madison mcroy
+                    Madison McRoy
                 </Title>
                 <Subtitle>
                     software engineer
