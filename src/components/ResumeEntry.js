@@ -3,43 +3,49 @@ import styled from 'styled-components'
 
 const ResumeEntry = (props) => {
     const {
-        role,
-        company,
+        title,
+        subtitle,
         startMonth,
         startYear,
         endMonth,
         endYear,
+        location,
         description
-    } = props.job
+    } = props.data
 
     const Container = styled.div`
         text-align: left;
         margin-bottom: 50px;
     `
 
-    // const Title = styled.div`
-    //     font-weight: 600;
-    // `
-
-    const Company = styled.span`
+    const Title = styled.span`
         font-weight: 600;
         margin-right: 5px;
         font-size: 1.2em;
     `
 
-    const Role = styled.span`
+    const Subtitle = styled.span`
         font-weight: 400;
     `
 
-    const Date = styled.span`
+    const DateLocation = styled.span`
         font-size: 0.8em;
         display: block;
     `
 
+    const Spacer = styled.span`
+        font-weight: bold;
+        margin: 0px 10px;
+    `;
+
     return ( 
         <Container>
-            <Company>{company}</Company> <Role>{role}</Role>
-            <Date>{startMonth} {startYear} - {endMonth} {endYear}</Date>
+            <Title>{title}</Title> <Subtitle>{subtitle}</Subtitle>
+            <DateLocation>
+                {startMonth} {startYear} - {endMonth} {endYear}
+                <Spacer>·</Spacer>
+                {location}
+            </DateLocation>
             <p>{description}</p>
         </Container>
     )

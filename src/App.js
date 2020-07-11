@@ -11,6 +11,7 @@ const PageContainer = styled.div`
   width: 50%;
   margin: auto;
   margin-top: 5%;
+  margin-bottom: 5%;
   outline: solid 1px #FFA083;
   background-color: #fff;
 `;

@@ -43,7 +43,7 @@ const Title = styled.span`
 const Subtitle = styled.span`
 `;
 
-const NavBar = (props) => {
+const NavBar = () => {
     return (
         <Container>
             <TitleContainer>

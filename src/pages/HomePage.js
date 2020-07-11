@@ -1,6 +1,6 @@
 import React from 'react'
 import styled from 'styled-components'
-import { aboutText, aboutHeadline } from '../constants'
+import { aboutText, aboutHeadline } from '../text'
 import Button from '../components/Button'
 import { useHistory } from 'react-router-dom'
 
