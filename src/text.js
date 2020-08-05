@@ -39,7 +39,7 @@ export const education = {
     endMonth: 'May',
     endYear: '2021',
     location: 'Atlanta, GA',
-    description: 'Studies fundamental concepts of programming and its applications, with an emphasis on media. Key coursework includes Object-Oriented Programming, Data Strucutres & Algorithms, User Interface Design, Computer Graphics, & Info Visualization.'
+    description: 'Studies fundamental concepts of programming and its applications, with an emphasis on media. Key coursework includes Object-Oriented Programming, Data Structures & Algorithms, User Interface Design, Computer Graphics, & Info Visualization.'
 }
 
 export const skills = {

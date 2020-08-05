@@ -6,14 +6,23 @@ import ResumePage from './pages/ResumePage'
 import ProjectsPage from './pages/ProjectsPage'
 import styled from 'styled-components'
 import NavBar from './components/NavBar'
+import { BREAKPOINTS } from './breakpoints'
 
 const PageContainer = styled.div`
   width: 50%;
   margin: auto;
   margin-top: 5%;
   margin-bottom: 5%;
-  outline: solid 1px #FFA083;
+  outline: solid 1px #8e7cc3;
   background-color: #fff;
+  @media (max-width: ${BREAKPOINTS.medium}) {
+    width: 80%;
+  }
+  @media (max-width: ${BREAKPOINTS.small}) {
+    width: 100%;
+    height: 100vh;
+    margin: 0;
+  }
 `;
 
 const Content = styled.div`

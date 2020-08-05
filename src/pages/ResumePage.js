@@ -4,8 +4,8 @@ import { workExperience, education, skills } from '../text'
 import ResumeEntry from '../components/ResumeEntry'
 
 const SectionHeader = styled.div`
-    outline: solid 1px #FFA083;
-    color: #FFA083;
+    outline: solid 1px #8e7cc3;
+    color: #8e7cc3;
     font-weight: bold;
     font-size: 1.25em;
     padding: 5px;

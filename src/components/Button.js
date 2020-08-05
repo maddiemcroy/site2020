@@ -4,13 +4,14 @@ import styled from 'styled-components'
 const StyledButton = styled.button`
     border: none;
     color: white;
-    background-color: #FFA083;
+    background-color: #8e7cc3;
     font-weight: bold;
     padding: 10px;
     font-size: 1em;
     transition: 200ms;
+    margin: 10px;
     :hover {
-        background-color: #E8846D;
+        background-color: #674ea7;
     }
 `
 

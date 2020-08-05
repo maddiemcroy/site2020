@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom'
 
 const Container = styled.div`
     width: 100%;
-    background: #FFA083;
+    background: #8e7cc3;
     display: flex;
     overflow: hidden;
     text-align: left;
@@ -19,7 +19,7 @@ const NavLink = styled(Link)`
     transition: 200ms;
     text-decoration: none;
     :hover {
-        color: #E8846D;
+        color: #674ea7;
     }
 `
 
