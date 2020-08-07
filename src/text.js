@@ -51,3 +51,8 @@ export const skills = {
 
 export const aboutText = 'I\'m a senior Computational Media student at Georgia Tech, graduating in May 2021 and pursuing a career in software engineering. I have a robust technical and creative skillset backed up by valuable industry experience, and hope to use these to create engaging interactive experiences as a full-stack developer.'
 export const aboutHeadline = 'Hey! I\'m a software engineer seeking full-time opportunities.'
+
+export const links = {
+    linkedIn: 'https://www.linkedin.com/in/mmcroy/',
+    github: 'https://github.com/maddiemcroy'
+}

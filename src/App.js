@@ -7,6 +7,7 @@ import ProjectsPage from './pages/ProjectsPage'
 import styled from 'styled-components'
 import NavBar from './components/NavBar'
 import { BREAKPOINTS } from './breakpoints'
+import Footer from './components/Footer'
 
 const PageContainer = styled.div`
   width: 50%;
@@ -22,11 +23,13 @@ const PageContainer = styled.div`
     width: 100%;
     min-height: 100vh;
     margin: 0;
+    position: relative;
   }
 `;
 
 const Content = styled.div`
   padding: 20px;
+  padding-bottom: 2.5rem;
 `
 
 function App() {
@@ -41,6 +44,7 @@ function App() {
             <Route path='/projects' component={ProjectsPage} />
           </Switch>
         </Content>
+        <Footer />
       </PageContainer>
     </div>
   );

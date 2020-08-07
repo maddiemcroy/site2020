@@ -10,6 +10,9 @@ const HomePage = () => {
 
     const Container = styled.div`
         display: flex;
+        @media (min-width: ${BREAKPOINTS.medium}) {
+            padding: 30px 0px;
+        }
     `
 
     const Headline = styled.div`
