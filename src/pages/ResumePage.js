@@ -2,6 +2,7 @@ import React from 'react'
 import styled from 'styled-components'
 import { workExperience, education, skills } from '../text'
 import ResumeEntry from '../components/ResumeEntry'
+import Spacer from '../components/Spacer'
 
 const SectionHeader = styled.div`
     outline: solid 1px #8e7cc3;
@@ -23,12 +24,6 @@ const SkillSection = styled.div`
     margin: 10px 0;
 `
 
-const Spacer = styled.span`
-    font-weight: bold;
-    margin: 0 10px;
-    top: 5px;
-`;
-
 const ResumePage = () => {
     const jobsSection = workExperience.map((job) => (
         <ResumeEntry
@@ -42,7 +37,7 @@ const ResumePage = () => {
                 if (i === (arr.length - 1)) {
                     return <Skill>{item}</Skill>
                 } else {
-                    return <Skill>{item}<Spacer>·</Spacer></Skill>
+                    return <Skill>{item}<Spacer /></Skill>
                 }
             })}
         </SkillSection>

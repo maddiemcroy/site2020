@@ -1,5 +1,6 @@
 import React from 'react'
 import styled from 'styled-components'
+import Spacer from '../components/Spacer'
 
 const ResumeEntry = (props) => {
     const {
@@ -20,7 +21,6 @@ const ResumeEntry = (props) => {
 
     const Title = styled.span`
         font-weight: 600;
-        margin-right: 5px;
         font-size: 1.2em;
     `
 
@@ -32,18 +32,12 @@ const ResumeEntry = (props) => {
         font-size: 0.8em;
         display: block;
     `
-
-    const Spacer = styled.span`
-        font-weight: bold;
-        margin: 0px 10px;
-    `;
-
     return ( 
         <Container>
-            <Title>{title}</Title> <Subtitle>{subtitle}</Subtitle>
+            <Title>{title} /</Title> <Subtitle>{subtitle}</Subtitle>
             <DateLocation>
                 {startMonth} {startYear} - {endMonth} {endYear}
-                <Spacer>·</Spacer>
+                <Spacer />
                 {location}
             </DateLocation>
             <p>{description}</p>

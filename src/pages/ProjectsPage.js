@@ -1,9 +1,11 @@
 import React from 'react'
+import Project from '../components/Project'
 
 const ProjectsPage = () => {
+
+
     return (
         <div>
-            <h1>projects</h1>
         </div>
     )
 }
