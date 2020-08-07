@@ -20,7 +20,7 @@ const PageContainer = styled.div`
   }
   @media (max-width: ${BREAKPOINTS.small}) {
     width: 100%;
-    height: 100vh;
+    min-height: 100vh;
     margin: 0;
   }
 `;

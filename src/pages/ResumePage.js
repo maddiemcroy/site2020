@@ -15,6 +15,7 @@ const SectionHeader = styled.div`
 `
 
 const Skill = styled.span`
+    display: inline-block;
     font-weight: ${props => props.bold ? 'bold' : 'initial'};
 `
 
