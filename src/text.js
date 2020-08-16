@@ -56,3 +56,69 @@ export const links = {
     linkedIn: 'https://www.linkedin.com/in/mmcroy/',
     github: 'https://github.com/maddiemcroy'
 }
+
+export const projects = [
+    {
+        'title' : 'Kitchen Pantry Tracker',
+        'desc' : 'MongoDB, Express.js, React, Node.js web app to track cooking ingredients on hand. Allows user to add, remove, and updated quantities of ingredients and displays data in an sorted view.',
+        'created' : 'summer 2020 [in progress]',
+        'imgName' : 'placeholder.png',
+        'sourceUrl' : 'https://github.com/maddiemcroy/kitchen-pantry-tracker',
+    },
+    {
+        'title' : 'Space Escape',
+        'desc' : 'Short Unity game created for LMC 2730: Construction of the Moving Image. Interactive narrative adventure about preparations for a trip to space. All objects custom modeled in Maya.',
+        'created' : 'fall 2019',
+        'imgName' : 'spaceescape.png',
+        'sourceUrl' : 'https://github.com/maddiemcroy/space-escape',
+    },
+    {
+        'title' : 'Movie Data Vis',
+        'desc' : 'Web-based interactive data visualization exploring trends and details in data about popular films.',
+        'created' : 'spring 2019',
+        'imgName' : 'movievis.png',
+        'sourceUrl' : 'https://github.com/maddiemcroy/info-vis-p5'
+    },
+    {
+        'title' : 'Drone Depot',
+        'desc' : 'Space-themed exploration game developed with the goal of facilitating learning and identifying trends in geospatial datasets.  Received 2nd place overall out of nearly 100 projects at VandyHacks 2018 hackathon.',
+        'created' : 'fall 2018',
+        'imgName' : 'dronedepot.png',
+        'sourceUrl' : 'https://devpost.com/software/tractor-beam-supply-co-4v9qsg'
+    },
+    {
+        'title' : '"TMI" Website',
+        'desc' : 'A web-based interactive visualization of the information density of a corpus of 19th-century literature, created as part of a research team at Georgia Tech\'s Digital Integrative Liberal Arts Center (DILAC).',
+        'created' : 'spring/summer 2018',
+        'imgName' : 'tmi.png',
+        'sourceUrl' : 'http://tmi.gatech.edu'
+    },
+    {
+        'title' : 'Atlanta Gentrification Map',
+        'desc' : 'An interactive data visualization created for an Information Design class project based on the city of Atlanta. Publically available data was compiled from various sources and synthesized to create an interactive map and graph that show changes in racial distribution, housing and income over a period of five years from 2010 to 2015. Leaflet and D3 Javascript frameworks were used to create the visualizations.',
+        'created' : 'spring 2018',
+        'imgName' : 'mapicon.jpg',
+        'sourceUrl' : 'https://github.com/maddiemcroy/atl-gentrification-map'
+    },
+    {
+        'title' : 'Zen Garden',
+        'desc' : 'An interactive virtual sand "zen garden". The objective of this project was to create a drawing tool that is based on some sort of metaphor for drawing in the real world. The program creates unique gardens on each launch/reset with randomly generated rocks and plants. The user can use drawing, raking, and smoothing tools to interact with the garden and "draw" in the sand.',
+        'created' : 'fall 2017',
+        'imgName' : 'zengarden3.jpeg',
+        'sourceUrl' : 'https://github.com/maddiemcroy/zengarden'
+    },
+    {
+        'title' : 'Tamagotchi Bot',
+        'desc' : 'An interactive Twitter bot that acts like a Tamagotchi toy. Users can feed, play with, and clean the virtual pet by tweeting at the bot using certain keywords in their tweets, and the pet\'s stats (hunger, cleanliness, and happiness) are updated and the user is mentioned in a tweet. If users fail to meet the pet\'s needs, the pet dies and the bot generates a new Tamagotchi to start the game over.',
+        'created' : 'fall 2017',
+        'imgName' : 'tbot.jpg',
+        'sourceUrl' : 'https://twitter.com/tamagotchibot'
+    },
+    {
+        'title' : 'Ocean Commotion',
+        'desc' : 'A Game Boy Advance game created for a class project. The player controls a sea otter swimming through the Pacific Ocean, collecting fish and avoiding predators and icebergs. The game is coded entirely in C and features sophisticated game logic, sound effects, and original art and sprites.',
+        'created' : 'spring 2018',
+        'imgName' : 'ocicon.jpg',
+        'sourceUrl' : 'oceancommotion.gba'
+    }
+]

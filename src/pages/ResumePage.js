@@ -25,7 +25,7 @@ const SkillSection = styled.div`
 `
 
 const ResumePage = () => {
-    const jobsSection = workExperience.map((job) => (
+    const jobsSection = workExperience.map((job, i) => (
         <ResumeEntry
             data={job}
         />

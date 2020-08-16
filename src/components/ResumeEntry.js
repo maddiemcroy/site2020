@@ -2,6 +2,25 @@ import React from 'react'
 import styled from 'styled-components'
 import Spacer from '../components/Spacer'
 
+const Container = styled.div`
+    text-align: left;
+    margin-bottom: 50px;
+`
+
+const Title = styled.span`
+    font-weight: 600;
+    font-size: 1.2em;
+`
+
+const Subtitle = styled.span`
+    font-weight: 400;
+`
+
+const DateLocation = styled.span`
+    font-size: 0.8em;
+    display: block;
+`
+
 const ResumeEntry = (props) => {
     const {
         title,
@@ -14,24 +33,6 @@ const ResumeEntry = (props) => {
         description
     } = props.data
 
-    const Container = styled.div`
-        text-align: left;
-        margin-bottom: 50px;
-    `
-
-    const Title = styled.span`
-        font-weight: 600;
-        font-size: 1.2em;
-    `
-
-    const Subtitle = styled.span`
-        font-weight: 400;
-    `
-
-    const DateLocation = styled.span`
-        font-size: 0.8em;
-        display: block;
-    `
     return ( 
         <Container>
             <Title>{title} /</Title> <Subtitle>{subtitle}</Subtitle>
